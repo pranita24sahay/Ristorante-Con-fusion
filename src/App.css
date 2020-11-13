@@ -1,0 +1,21 @@
+.App {
+  margin-top: 56px;
+
+}
+
+.App-header {
+  background-color: purple;
+  min-height: 9vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:wheat;
+}
+.main
+{
+  align-items: center;
+  display: flex;
+
+}
