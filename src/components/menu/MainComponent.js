@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Menu from './MenuComponent';
-import { DISHES } from '../../shared/dishes';
+import { DISHES } from '../../shared/pictures';
 import './Maincomponent.css';
 
 class Main extends Component {
