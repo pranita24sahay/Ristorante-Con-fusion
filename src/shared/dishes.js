@@ -12,39 +12,40 @@ export const DISHES =
             {
             id: 0,
             rating: 5,
-            comment: "Imagine all the eatables, living in conFusion!",
-            author: "John Lemon",
-            date: "2012-10-16T17:57:28.556094Z"
+            comment: "Makes me wanna get some flowers for my girlfriend",
+            author: "Sanyam",
+            date: "2020-10-16T17:57:28.556094Z"
             },
             {
             id: 1,
             rating: 4,
-            comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-            author: "Paul McVites",
-            date: "2014-09-05T17:57:28.556094Z"
+            comment: "Oh Wow",
+            author: "Midhushi",
+            date: "2020-09-05T17:57:28.556094Z"
             },
             {
             id: 2,
             rating: 3,
-            comment: "Eat it, just eat it!",
-            author: "Michael Jaikishan",
-            date: "2015-02-13T17:57:28.556094Z"
+            comment: "Smell it,just smell it!",
+            author: "Aryan",
+            date: "2020-02-13T17:57:28.556094Z"
             },
             {
             id: 3,
             rating: 4,
-            comment: "Ultimate, Reaching for the stars!",
-            author: "Ringo Starry",
-            date: "2013-12-02T17:57:28.556094Z"
+            comment: "Ultimate, Reaching for the plants!",
+            author: "Pranita",
+            date: "2020-12-02T17:57:28.556094Z"
             },
             {
             id: 4,
             rating: 2,
-            comment: "It's your birthday, we're gonna party!",
-            author: "25 Cent",
-            date: "2011-12-02T17:57:28.556094Z"
+            comment: "They just seem too real",
+            author: "Pinterest",
+            date: "2020-12-02T17:57:28.556094Z"
             }
-        ]                        },
+        ]                        
+        },
         {
         id: 1,
         name:'Portraits',
@@ -55,40 +56,40 @@ export const DISHES =
         description:'The quintessential portraits, ranging from vivid colours to monochrome',
         comments: [
             {
-            id: 0,
-            rating: 5,
-            comment: "Imagine all the eatables, living in conFusion!",
-            author: "John Lemon",
-            date: "2012-10-16T17:57:28.556094Z"
-            },
-            {
-            id: 1,
-            rating: 4,
-            comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-            author: "Paul McVites",
-            date: "2014-09-05T17:57:28.556094Z"
-            },
-            {
-            id: 2,
-            rating: 3,
-            comment: "Eat it, just eat it!",
-            author: "Michael Jaikishan",
-            date: "2015-02-13T17:57:28.556094Z"
-            },
-            {
-            id: 3,
-            rating: 4,
-            comment: "Ultimate, Reaching for the stars!",
-            author: "Ringo Starry",
-            date: "2013-12-02T17:57:28.556094Z"
-            },
-            {
-            id: 4,
-            rating: 2,
-            comment: "It's your birthday, we're gonna party!",
-            author: "25 Cent",
-            date: "2011-12-02T17:57:28.556094Z"
-            }
+                id: 0,
+                rating: 5,
+                comment: "Makes me wanna get some flowers for my girlfriend",
+                author: "Sanyam",
+                date: "2020-10-16T17:57:28.556094Z"
+                },
+                {
+                id: 1,
+                rating: 4,
+                comment: "Oh Wow",
+                author: "Midhushi",
+                date: "2020-09-05T17:57:28.556094Z"
+                },
+                {
+                id: 2,
+                rating: 3,
+                comment: "Smell it,just smell it!",
+                author: "Aryan",
+                date: "2020-02-13T17:57:28.556094Z"
+                },
+                {
+                id: 3,
+                rating: 4,
+                comment: "Ultimate, Reaching for the plants!",
+                author: "Pranita",
+                date: "2020-12-02T17:57:28.556094Z"
+                },
+                {
+                id: 4,
+                rating: 2,
+                comment: "They just seem too real",
+                author: "Pinterest",
+                date: "2020-12-02T17:57:28.556094Z"
+                }
         ]
         },
         {
@@ -101,40 +102,40 @@ export const DISHES =
         description:'A quintessential ConFusion experience, is it a vada or is it a donut?',
         comments: [
             {
-            id: 0,
-            rating: 5,
-            comment: "Imagine all the eatables, living in conFusion!",
-            author: "John Lemon",
-            date: "2012-10-16T17:57:28.556094Z"
-            },
-            {
-            id: 1,
-            rating: 4,
-            comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-            author: "Paul McVites",
-            date: "2014-09-05T17:57:28.556094Z"
-            },
-            {
-            id: 2,
-            rating: 3,
-            comment: "Eat it, just eat it!",
-            author: "Michael Jaikishan",
-            date: "2015-02-13T17:57:28.556094Z"
-            },
-            {
-            id: 3,
-            rating: 4,
-            comment: "Ultimate, Reaching for the stars!",
-            author: "Ringo Starry",
-            date: "2013-12-02T17:57:28.556094Z"
-            },
-            {
-            id: 4,
-            rating: 2,
-            comment: "It's your birthday, we're gonna party!",
-            author: "25 Cent",
-            date: "2011-12-02T17:57:28.556094Z"
-            }
+                id: 0,
+                rating: 5,
+                comment: "Makes me wanna get some flowers for my girlfriend",
+                author: "Sanyam",
+                date: "2020-10-16T17:57:28.556094Z"
+                },
+                {
+                id: 1,
+                rating: 4,
+                comment: "Oh Wow",
+                author: "Midhushi",
+                date: "2020-09-05T17:57:28.556094Z"
+                },
+                {
+                id: 2,
+                rating: 3,
+                comment: "Smell it,just smell it!",
+                author: "Aryan",
+                date: "2020-02-13T17:57:28.556094Z"
+                },
+                {
+                id: 3,
+                rating: 4,
+                comment: "Ultimate, Reaching for the plants!",
+                author: "Pranita",
+                date: "2020-12-02T17:57:28.556094Z"
+                },
+                {
+                id: 4,
+                rating: 2,
+                comment: "They just seem too real",
+                author: "Pinterest",
+                date: "2020-12-02T17:57:28.556094Z"
+                }
         ]
         },
         {
@@ -147,40 +148,40 @@ export const DISHES =
         description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms',
         comments: [
             {
-            id: 0,
-            rating: 5,
-            comment: "Imagine all the eatables, living in conFusion!",
-            author: "John Lemon",
-            date: "2012-10-16T17:57:28.556094Z"
-            },
-            {
-            id: 1,
-            rating: 4,
-            comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-            author: "Paul McVites",
-            date: "2014-09-05T17:57:28.556094Z"
-            },
-            {
-            id: 2,
-            rating: 3,
-            comment: "Eat it, just eat it!",
-            author: "Michael Jaikishan",
-            date: "2015-02-13T17:57:28.556094Z"
-            },
-            {
-            id: 3,
-            rating: 4,
-            comment: "Ultimate, Reaching for the stars!",
-            author: "Ringo Starry",
-            date: "2013-12-02T17:57:28.556094Z"
-            },
-            {
-            id: 4,
-            rating: 2,
-            comment: "It's your birthday, we're gonna party!",
-            author: "25 Cent",
-            date: "2011-12-02T17:57:28.556094Z"
-            }
+                id: 0,
+                rating: 5,
+                comment: "Makes me wanna take my girlfriend on vacation",
+                author: "Sanyam",
+                date: "2020-10-16T17:57:28.556094Z"
+                },
+                {
+                id: 1,
+                rating: 4,
+                comment: "Oh Wow",
+                author: "Midhushi",
+                date: "2020-09-05T17:57:28.556094Z"
+                },
+                {
+                id: 2,
+                rating: 3,
+                comment: "what is picturesque perfect!",
+                author: "Aryan",
+                date: "2020-02-13T17:57:28.556094Z"
+                },
+                {
+                id: 3,
+                rating: 4,
+                comment: "Ultimate!",
+                author: "Pranita",
+                date: "2020-12-02T17:57:28.556094Z"
+                },
+                {
+                id: 4,
+                rating: 2,
+                comment: "They just seem too real",
+                author: "Pinterest",
+                date: "2020-12-02T17:57:28.556094Z"
+                }
         ]
         }
     ];
