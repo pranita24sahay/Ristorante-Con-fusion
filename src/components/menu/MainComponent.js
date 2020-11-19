@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Menu from './MenuComponent';
-import { DISHES } from '../../shared/pictures';
-import './Maincomponent.css';
+import DishDetail from './dishdetail';
+import { DISHES } from './pictures';
 
 class Main extends Component {
 
@@ -19,11 +19,12 @@ class Main extends Component {
 
   render() {
     return (
-      <div className="placing">
+      <div>
         <Menu dishes={this.state.dishes} onClick={(dishId) => this.onDishSelect(dishId)} />
+        <DishDetail dish={this.state.dishes.filter((dish) => dish.id === this.state.selectedDish)[0]} />
       </div>
     );
   }
 }
 
-export default Main;
+export default Main; 

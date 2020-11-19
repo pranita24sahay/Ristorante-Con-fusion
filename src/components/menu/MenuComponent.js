@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DishDetail from './dishdetail';
+
 import { Card, CardImg, CardImgOverlay,CardTitle } from 'reactstrap'
 import './menucomponent.css';
 class Menu extends Component {
@@ -7,9 +7,6 @@ class Menu extends Component {
     constructor(props) {
         super(props);
 
-        this.state = {
-            selectedDish: null
-        }
         console.log("menu constructor called")
     }
 
@@ -17,9 +14,7 @@ class Menu extends Component {
         console.log("menu componentDidMount called")
     }
 
-    onDishSelect(dish) {
-        this.setState({ selectedDish: dish});
-    }
+    
     
     
 
@@ -27,8 +22,7 @@ class Menu extends Component {
         const menu = this.props.dishes.map((dish) => {
             return (
                 <div  className="col-12 col-md-5 m-1" key={dish.id}>
-                <Card 
-                  onClick={() => this.onDishSelect(dish)}>
+                <Card  onClick={() => this.props.onClick(dish.id)}>
                   <CardImg width="40%" src={dish.image} alt={dish.name} />
                   <CardImgOverlay>
                       <CardTitle>{dish.name}</CardTitle>
@@ -43,7 +37,7 @@ class Menu extends Component {
                 <div className="row">
                     {menu}
                 </div>
-                <DishDetail selectedDish={this.state.selectedDish}/>
+                
             </div>
         );
     }
