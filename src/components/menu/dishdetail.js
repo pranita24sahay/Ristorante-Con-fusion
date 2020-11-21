@@ -24,7 +24,6 @@ import { Card, CardImg, CardText, CardBody,
             comments.map((comment)=>{
                 return (
                     <div key={comment.id}>
-                        <h3>Comments</h3>
                         <ul className="list-unstyled">
                             <li>{comment.comment}</li>
                             <li>-- {comment.author}, {new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: '2-digit'}).format(new Date(Date.parse(comment.date)))}</li>
@@ -49,6 +48,7 @@ import { Card, CardImg, CardText, CardBody,
                 <RenderDish dish={props.dish}/>
                 </div>
                 <div  className="col-12 col-md-5 m-1">
+                    <h3>Comments</h3>
                     <RenderComments comments={props.dish.comments}/>
                 </div>
             </div>

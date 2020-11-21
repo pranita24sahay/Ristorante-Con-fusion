@@ -3,3 +3,11 @@
     display: flex;
     box-shadow:  black 2px;
 }
+.CardTitle
+{
+    color: aliceblue;
+}
+.CardBody
+{
+    color:rgb(128, 6, 158)
+}

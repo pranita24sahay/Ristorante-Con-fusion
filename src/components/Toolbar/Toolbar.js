@@ -1,6 +1,7 @@
 import React from 'react';
 import SideBarButton from '../sidebar/sidebarbutton';
 import './Toolbar.css';
+import '@fortawesome/fontawesome-free';
 
 
 const Toolbar = prop => (
@@ -14,9 +15,9 @@ const Toolbar = prop => (
             <div className="spacer" />
             <div className="toolbar_navigation_items">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About Us</a></li>
-                    <li><a href="/">Contact Us</a></li>
+                    <li><a href="/"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li><a href="/"><span class="fa fa-info fa-lg"></span> About Us</a></li>
+                    <li><a href="/"><span class="fa fa-address-card fa-lg"></span> Contact Us</a></li>
                 </ul>
                 <br />
             </div>

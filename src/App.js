@@ -35,13 +35,11 @@ import Slider from './components/carousel/caraousel';
       }
     return (
       <div style={{height:'100%'}}>
-     
         <Toolbar  sidebarClickHandler ={this.sidebarToggleClickHandler}/>
         {sidebar}
         {backdrop}
-        <div>
+        <div >
           <Main />
-          <Slider />
         </div>
       </div>
     );
