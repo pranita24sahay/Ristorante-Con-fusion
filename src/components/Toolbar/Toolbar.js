@@ -2,6 +2,7 @@ import React from 'react';
 import SideBarButton from '../sidebar/sidebarbutton';
 import './Toolbar.css';
 import '@fortawesome/fontawesome-free';
+import { Link } from 'react-router-dom';
 
 
 const Toolbar = prop => (
@@ -15,9 +16,10 @@ const Toolbar = prop => (
             <div className="spacer" />
             <div className="toolbar_navigation_items">
                 <ul>
-                    <li><a href="/"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                    <li><a href="/"><span class="fa fa-info fa-lg"></span> About Us</a></li>
-                    <li><a href="/"><span class="fa fa-address-card fa-lg"></span> Contact Us</a></li>
+                        <li><Link to='/home'><span class="fa fa-home fa-lg"></span> Home</Link></li>
+                        <li><Link to='/aboutus'><span class="fa fa-info fa-lg"></span> About Us</Link></li>
+                        <li><Link to='/menu'>Menu</Link></li>
+                        <li><Link to='/contactus'><span class="fa fa-address-card fa-lg"></span> Contact Us</Link></li>
                 </ul>
                 <br />
             </div>

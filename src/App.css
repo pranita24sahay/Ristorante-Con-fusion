@@ -46,6 +46,8 @@
   margin:0px auto;
   background-color: #8c27aa ;
   color:rgb(80, 11, 80);
+  align-items: center;
+  display: flex;
 }
 
 address{
