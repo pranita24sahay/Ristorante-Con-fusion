@@ -5,6 +5,10 @@ import Toolbar from './components/Toolbar/Toolbar';
 import SideBar from './components/sidebar/sidebar.js';
 import BackDrop from './components/backdrop/backdrop.js';
 import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import { ConfigureStore } from './Redux/configurestore';
+
+const store = ConfigureStore();
 
   class App extends Component {
 
@@ -31,9 +35,10 @@ import { BrowserRouter } from 'react-router-dom';
       if(this.state.sidebarOpen)
       {
         sidebar=<SideBar />;
-        backdrop = <BackDrop click={this.backdropClickHandler}/>
+        backdrop = <BackDrop click={this.backdropClickHandler}/>;
       }
     return (
+      <Provider store={store}>
       <BrowserRouter>
       <div style={{height:'100%'}}>
       <Toolbar  sidebarClickHandler ={this.sidebarToggleClickHandler}/>
@@ -44,6 +49,7 @@ import { BrowserRouter } from 'react-router-dom';
         </div>
       </div>
       </BrowserRouter>
+      </Provider>
     );
     }
   }
