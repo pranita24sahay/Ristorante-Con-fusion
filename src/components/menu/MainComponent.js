@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import Menu from './MenuComponent';
 import DishDetail from './dishdetail';
-
 import Header from '../header/header';
 import Footer from '../footer/footer';
 import Home from '../home/home';
 import Contact from '../contact/contact';
 import About from '../about/about';
-
 import { Switch, Route, Redirect,withRouter  } from 'react-router-dom';
 import { connect } from 'react-redux';
 
@@ -20,9 +18,7 @@ const mapStateToProps = state => {
   }
 }
 
-  class Main extends Component {
-
-    
+  class Main extends Component {    
     onDishSelect(dishId) {
       console.log('dishId', dishId)
     this.setState({ selectedDish: dishId});
@@ -51,10 +47,10 @@ const mapStateToProps = state => {
         <div>
           <Switch>
               <Route path='/home' component={HomePage} />
-              <Route exact path='/aboutus' component={() => <About leaders={this.props.leaders} />} />} />
+              <Route exact path='/aboutus' component={() => <About leaders={this.props.leaders} />} />
               <Route exact path='/menu' component={() => <Menu dishes={this.props.dishes} />} />
               <Route path='/menu/:dishId' component={DishWithId} />
-              <Route exact path='/contactus' component={Contact} />} />
+              <Route exact path='/contactus' component={Contact} />
               <Redirect to="/home" />
           </Switch>
         </div>
