@@ -1,4 +1,4 @@
-import { COMMENTS } from '../shared/comments';
+import { COMMENTS } from '../components/shared/comments';
 
 export const Comments = (state = COMMENTS, action) => {
     switch (action.type) {

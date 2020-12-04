@@ -1,4 +1,4 @@
-import { LEADERS } from '../shared/leaders';
+import { LEADERS } from '../components/shared/leaders';
 
 export const Leaders = (state = LEADERS, action) => {
     switch (action.type) {
