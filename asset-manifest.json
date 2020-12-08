@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Ristorante-Con-fusion/static/css/main.ec753f37.chunk.css",
+    "main.js": "/Ristorante-Con-fusion/static/js/main.c9598082.chunk.js",
+    "main.js.map": "/Ristorante-Con-fusion/static/js/main.c9598082.chunk.js.map",
+    "runtime-main.js": "/Ristorante-Con-fusion/static/js/runtime-main.b2f53daa.js",
+    "runtime-main.js.map": "/Ristorante-Con-fusion/static/js/runtime-main.b2f53daa.js.map",
+    "static/css/2.25190345.chunk.css": "/Ristorante-Con-fusion/static/css/2.25190345.chunk.css",
+    "static/js/2.e89160c2.chunk.js": "/Ristorante-Con-fusion/static/js/2.e89160c2.chunk.js",
+    "static/js/2.e89160c2.chunk.js.map": "/Ristorante-Con-fusion/static/js/2.e89160c2.chunk.js.map",
+    "index.html": "/Ristorante-Con-fusion/index.html",
+    "precache-manifest.52ff58b52bb0996012315cd3e6a6eeb1.js": "/Ristorante-Con-fusion/precache-manifest.52ff58b52bb0996012315cd3e6a6eeb1.js",
+    "service-worker.js": "/Ristorante-Con-fusion/service-worker.js",
+    "static/css/2.25190345.chunk.css.map": "/Ristorante-Con-fusion/static/css/2.25190345.chunk.css.map",
+    "static/css/main.ec753f37.chunk.css.map": "/Ristorante-Con-fusion/static/css/main.ec753f37.chunk.css.map",
+    "static/js/2.e89160c2.chunk.js.LICENSE.txt": "/Ristorante-Con-fusion/static/js/2.e89160c2.chunk.js.LICENSE.txt",
+    "static/media/alberto.png": "/Ristorante-Con-fusion/static/media/alberto.ea8ecac0.png",
+    "static/media/buffet.png": "/Ristorante-Con-fusion/static/media/buffet.96d6bd20.png",
+    "static/media/elaicheesecake.png": "/Ristorante-Con-fusion/static/media/elaicheesecake.a1c19f6d.png",
+    "static/media/font-awesome.css": "/Ristorante-Con-fusion/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/uthappizza.png": "/Ristorante-Con-fusion/static/media/uthappizza.c8fcf9ae.png",
+    "static/media/vadonut.png": "/Ristorante-Con-fusion/static/media/vadonut.986a2644.png",
+    "static/media/zucchipakoda.png": "/Ristorante-Con-fusion/static/media/zucchipakoda.e54b2833.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2f53daa.js",
+    "static/css/2.25190345.chunk.css",
+    "static/js/2.e89160c2.chunk.js",
+    "static/css/main.ec753f37.chunk.css",
+    "static/js/main.c9598082.chunk.js"
+  ]
+}
