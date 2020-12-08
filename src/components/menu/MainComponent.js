@@ -8,6 +8,7 @@ import Contact from '../contact/contact';
 import About from '../about/about';
 import { Switch, Route, Redirect,withRouter  } from 'react-router-dom';
 import { connect } from 'react-redux';
+import { addComment } from '../Redux/ActionCreators';
 
 const mapStateToProps = state => {
   return {

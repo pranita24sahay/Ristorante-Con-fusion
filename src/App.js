@@ -6,7 +6,7 @@ import SideBar from './components/sidebar/sidebar.js';
 import BackDrop from './components/backdrop/backdrop.js';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import { ConfigureStore } from './Redux/configurestore';
+import { ConfigureStore } from '../src/components/Redux/configurestore';
 
 const store = ConfigureStore();
 
@@ -44,7 +44,7 @@ const store = ConfigureStore();
       <Toolbar  sidebarClickHandler ={this.sidebarToggleClickHandler}/>
         {sidebar}
         {backdrop}
-        <div >
+        <div>
           <Main />
         </div>
       </div>
